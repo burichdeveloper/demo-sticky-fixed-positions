@@ -6,4 +6,40 @@ header,
 section {
     padding: 1rem;
 }
-/* developer styles go here */
+
+
+
+
+h1 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+h2 {
+    background-color: tomato;
+    padding: 1rem 0.5rem;
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
+}
+
+h3 {
+    position: sticky;
+    position: -webkit-sticky;
+    top: 68px;
+    background-color: white;
+}
+
+.snowflake {
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 2;
+}
+
+p {
+    margin-bottom: 1.5rem;
+    max-width: 60ch;
+}
